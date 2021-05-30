@@ -81,3 +81,20 @@
   font-size: 34px;
 }
 
+.tourSegment:hover {
+  cursor: pointer;
+  box-shadow: ;
+}
+
+.cardSegment {
+  font-family: Poppins,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.text2 {
+  font-family: Poppins,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
