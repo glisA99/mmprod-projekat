@@ -25,9 +25,10 @@ const Tour = (props: IProps) => {
                         <Image src={`${props.tour.image}`} className="tourImage" />
                     </Grid.Column>
                     <Grid.Column width='8'>
-                        tekst
+                        <p className='titleTour'>{props.tour.title}</p>
+                        <p>{props.tour.description.slice(0,100)}</p>
                     </Grid.Column>
-                    <Grid.Column width='2'>
+                    <Grid.Column width='2' style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
                         <p>Cena:<br></br>{props.tour.price}RSD</p>
                     </Grid.Column>
                 </Grid.Row>
