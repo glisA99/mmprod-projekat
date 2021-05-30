@@ -12,7 +12,7 @@ export default function Navbar() {
 
                 <MenuItem text='Pocetna' icon='home' to='/'/>
                 <MenuItem text='Ture' icon='travel' to='/tours'/>
-                <MenuItem text='O nama' icon='info' to='aboutus' />
+                <MenuItem text='O nama' icon='info' to='/aboutus' />
                 <MenuItem text='Kontakt' icon='phone' to='/contact' />
 
                 <Menu.Item style={{width: "30%", textAlign: "center"}}>
