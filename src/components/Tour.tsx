@@ -39,7 +39,7 @@ const Tour = withRouter((props: RouteComponentProps & IProps) => {
                         <p>{props.tour.description}</p>
                     </Grid.Column>
                     <Grid.Column verticalAlign='middle' width='2'>
-                        <p><b>Cena:<br></br>{props.tour.price}RSD</b></p>
+                        <p style={{fontSize: "20px"}}><b>Cena:<br></br>{props.tour.price}RSD</b></p>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
